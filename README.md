@@ -1,4 +1,4 @@
-# Postgresql & PgAdmin powered by compose
+# Postgresql and PgAdmin by docker-compose
 
 
 ## Requirements:
@@ -30,15 +30,10 @@ This Compose file contains the following environment variables:
 
 * You can change it with your own informations
 
-## Access to postgres: 
-* `localhost:5432`
-* **Username:** postgres 
-* **Password:** postgres
-
 ## Access to PgAdmin: 
 * **URL:** `http://localhost:5050`
 * **Username:** pgadmin@pgadmin.org
-* **Password:** admin
+* **Password:** postgres
 
 ## Add a new server in PgAdmin:
 * **Host name/address** `postgres`
